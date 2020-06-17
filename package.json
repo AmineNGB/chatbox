@@ -1,5 +1,4 @@
 {
-  "homepage": "https://aminengb.github.io/chatbox/",
   "name": "chatbox-app",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +12,7 @@
     "react-scripts": "1.1.5",
     "react-transition-group": "^2.5.0"
   },
+  "homepage": "https://aminengb.github.io/chatbox/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
