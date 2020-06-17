@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^3.0.0",
     "firebase": "^5.5.1",
     "prop-types": "^15.6.2",
     "re-base": "^4.0.0",
@@ -30,8 +31,5 @@
   ],
   "standard": {
     "parser": "babel-eslint"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.0.0"
   }
 }
