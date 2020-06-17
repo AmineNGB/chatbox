@@ -18,12 +18,12 @@ html {
 }
 
 body {
+	/* background-color: #1d1d1d; */
 	padding: 0;
 	margin: 0;
 	font-size: 20px;
 }
 .connexionBox {
-	background-color: #eceff1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -54,7 +54,6 @@ body {
 	max-width: 500px;
 	height: calc(100vh - 100px);
 	padding: 50px 0;
-	/*border: 5px solid purple;*/
 }
 
 .box > * {
