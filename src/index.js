@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import './index.css'
 import App from './App'
 import Connexion from './components/Connexion'
@@ -9,13 +9,13 @@ import NotFound from './components/NotFound'
 
 
 const Root = () => (
-    <BrowserRouter>
+    <HashRouter>
         <Switch>
-            <Route exact path='/' component={Connexion} />
-            <Route exact path='/pseudo/:pseudo' component={App} />
-            <Route component={NotFound} />
+        <Route exact path='/' component={Connexion} />
+        <Route path='/pseudo/:pseudo' component={App} />
+        <Route component={NotFound} />
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
 )
 
 ReactDOM.render(<Root />, document.getElementById('root'))
